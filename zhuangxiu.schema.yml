@@ -1,0 +1,23 @@
+version: 1
+imports: []
+schemas:
+  - id: zhuangxiu
+    title: 装修
+    parent: root
+    children: [yinzhuang]
+  - id: yinzhuang
+    title: 硬装
+    parent: 装修
+    children: [shuidian,glass,tube,coolwarm,clean,board]
+  - id: shuidian
+    title: 水电工程
+  - id: glass
+    title: 玻璃
+  - id: tube
+    title: 管道和排水
+  - id: coolwarm
+    title: 暖通工程
+  - id: clean
+    title: 洗衣机烘干机
+  - id: board
+    title: 板材

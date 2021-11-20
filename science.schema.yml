@@ -1,0 +1,13 @@
+version: 1
+imports: []
+schemas:
+  - id: science
+    title: science
+    parent: root
+    children: [history]
+  - id: history
+    title: history
+    parent: science
+    children: [religious]
+  - id: religious
+    title: religious
