@@ -5,6 +5,7 @@ schemas:
     title: 装修
     parent: root
     children: [yinzhuang]
+# 硬装
   - id: yinzhuang
     title: 硬装
     parent: 装修
@@ -21,3 +22,10 @@ schemas:
     title: 洗衣机烘干机
   - id: board
     title: 板材
+# 软装
+  - id: deco
+    title: 软装
+    parent: 装修
+    children: [social]
+  - id: social
+    title: 视交网络零散知识
